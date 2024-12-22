@@ -1,0 +1,487 @@
+body {
+    background-image: url(../images/recent_news_bg.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+header {
+    background-image: url(../images/首页导航栏背景.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    opacity: .9;
+}
+
+header h1 {
+    font-family: "隶书";
+    margin-bottom: 0.5rem;
+    color: rgb(231, 244, 56);
+    margin-top: -10px;
+}
+
+header form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 280px;
+    top: 5px;
+}
+
+header form input[type='text'] {
+    width: 180px;
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    background-color: #a9c679;
+    border: 2px solid #373937;
+    color: rgb(60, 0, 58);
+}
+
+header form input[type='text']:focus {
+    background-color: #7dfdff;
+}
+
+header form img {
+    cursor: pointer;
+}
+
+header form img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: #ddd;
+}
+
+header nav a {
+    color: #f04167;
+    text-decoration: none;
+    margin-right: 20px;
+    padding: 6px 25px 6px 17px;
+    transition: all .6s;
+}
+
+header nav a:hover {
+    transition: all .8s;
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#kyry {
+    width: 80px;
+    position: absolute;
+    right: 340px;
+    top: 6px;
+}
+
+#fangdajing {
+    width: 64px;
+    position: absolute;
+    right: 280px;
+    top: 16px;
+}
+
+#recent_news {
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 2rem;
+    background: #d4fffd;
+    opacity: .8;
+}
+
+#show_top_img {
+    width: 100%;
+    height: 250px;
+    background-image: url(../images/recent_top_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    opacity: .9;
+}
+
+.hot-topic {
+    background: #98dcc8;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    opacity: .9.8;
+    position: relative;
+}
+
+.hot-topic .box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#laba {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.hot-topic h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #ff471e;
+}
+
+article {
+    margin-bottom: 1.5rem;
+}
+
+article h3 {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+    color: #0077cc;
+}
+
+/* CONTENT */
+
+#main_body {
+    width: 100%;
+    clear: both
+}
+
+#content {
+    width: 715px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    background-color: #333333;
+}
+
+#leftpan {
+    width: 350px;
+    float: left;
+    position: relative;
+}
+
+#leftpan p {
+    width: 240px;
+    margin: 0 0 0 101px;
+    padding-top: 37px;
+    padding-bottom: 10px;
+    font: 10px/12px Tahoma, sans-serif;
+}
+
+#leftpan a {
+    font: 10px/12px Tahoma, sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#leftpan a:hover {
+    color: #b8d71e;
+}
+
+#leftpan #money {
+    width: 350px;
+    min-height: 92px;
+    background: url(../images/b_left.jpg) bottom no-repeat;
+    border-bottom: #949494 1px solid;
+    float: left;
+    position: relative;
+}
+
+#leftpan #money h2 {
+    width: 72px;
+    height: 72px;
+    background: url(../images/img_money.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    text-indent: -20000px;
+}
+
+#leftpan #money h3 {
+    width: 123px;
+    height: 24px;
+    background: url(../images/h_money.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 101px;
+    text-indent: -20000px;
+}
+
+#leftpan #partners {
+    width: 350px;
+    min-height: 92px;
+    background: url(../images/b_left.jpg) bottom no-repeat;
+    border-bottom: #949494 1px solid;
+    float: left;
+    position: relative;
+}
+
+#leftpan #partners h2 {
+    width: 72px;
+    height: 72px;
+    background: url(../images/img_partners.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 16px;
+    text-indent: -20000px;
+}
+
+#leftpan #partners h3 {
+    width: 123px;
+    height: 24px;
+    background: url(../images/h_partners.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 11px;
+    left: 101px;
+    text-indent: -20000px;
+}
+
+#leftpan #team {
+    width: 315px;
+    margin: 21px 0 0 20px;
+    position: relative;
+    float: left;
+    padding-bottom: 20px;
+}
+
+#leftpan #team h3 {
+    width: 287px;
+    height: 34px;
+    background: url(../images/h_team.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-indent: -20000px;
+}
+
+#leftpan #team img {
+    width: 139px;
+    height: 90px;
+    margin: 54px 14px 0 0;
+    padding: 1px;
+    border: #727272 1px solid;
+    float: left;
+}
+
+#leftpan #team p {
+    width: 150px;
+    margin: 56px 0 0 0;
+    padding-bottom: 10px;
+    font: 11px/14px Tahoma, sans-serif;
+    padding-top: 0;
+    float: left;
+}
+
+#leftpan #team p span {
+    font-weight: bold;
+    color: #b9d822;
+}
+
+#leftpan #team a {
+    font: 11px/14px Tahoma, sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#leftpan #team a:hover {
+    color: #b8d71e;
+}
+
+#leftpan #team ul {
+    width: 280px;
+    margin: 10px 0 0 8px;
+    float: left
+}
+
+#leftpan #team ul li a {
+    display: block;
+    width: 280px;
+    height: 16px;
+    background: url(../images/arrow.jpg) 5px 6px no-repeat;
+    font: 10px/16px Tahoma, Arial, Helvetica, sans-serif;
+    color: #b9d822;
+    font-weight: normal;
+    text-decoration: none;
+    padding: 0 0 0 18px;
+}
+
+#leftpan #team ul li a:hover {
+    color: #FFF;
+    background-color: #000000;
+}
+
+#rightpan {
+    width: 365px;
+    float: left;
+    position: relative;
+}
+
+#rightpan #welcome {
+    width: 365px;
+    float: left;
+    position: relative;
+    border-bottom: #949494 1px solid;
+    min-height: 185px;
+}
+
+#rightpan #welcome img {
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    top: 27px;
+    left: 27px;
+    padding: 1px;
+    border: #727272 1px solid;
+}
+
+#rightpan #welcome h3 {
+    width: 169px;
+    height: 35px;
+    background: url(../images/h_welcome.gif) 0 0 no-repeat;
+    display: block;
+    position: absolute;
+    top: 26px;
+    left: 184px;
+    text-indent: -20000px;
+}
+
+#rightpan #welcome p {
+    width: 169px;
+    margin: 0 0 0 184px;
+    padding-top: 73px;
+    padding-bottom: 10px;
+    font: 11px/14px Tahoma, sans-serif;
+}
+
+#rightpan #welcome p span {
+    font-weight: bold;
+    color: #b9d822;
+}
+
+#rightpan #welcome a {
+    font: 11px/14px Tahoma, sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#rightpan #welcome a:hover {
+    color: #b8d71e;
+}
+
+#rightpan #services {
+    width: 365px;
+    position: relative;
+    background: url(../images/b_serv.jpg) top left no-repeat;
+    float: left;
+    padding-bottom: 20px
+}
+
+#rightpan #services h3 {
+    width: 215px;
+    height: 36px;
+    background: url(../images/h_services.gif) 0 0 no-repeat;
+    text-indent: -20000px;
+    margin: 21px 0 0 27px;
+}
+
+#rightpan #services p.s1 {
+    width: 238px;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 78px;
+    float: left;
+    background: url(../images/img_services.gif) 25px 0 no-repeat;
+    min-height: 45px;
+    font: 10px/12px Tahoma, sans-serif;
+}
+
+#rightpan #services p.s2 {
+    width: 238px;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 78px;
+    float: left;
+    background: url(../images/img_services-09.gif) 25px 0 no-repeat;
+    min-height: 45px;
+    font: 10px/12px Tahoma, sans-serif;
+}
+
+#rightpan #services p.s3 {
+    width: 238px;
+    margin: 15px 0 0 0;
+    padding: 0 0 0 78px;
+    float: left;
+    background: url(../images/img_services-10.gif) 25px 0 no-repeat;
+    min-height: 45px;
+    font: 10px/12px Tahoma, sans-serif;
+}
+
+#rightpan #services span {
+    color: #b9d822
+}
+
+#rightpan #services a {
+    font: 10px/12px Tahoma, sans-serif;
+    font-weight: normal;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#rightpan #services a:hover {
+    color: #b8d71e;
+}
+
+footer {
+    background-image: url(../images/Snipaste_2024-12-19_04-44-49.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    bottom: -880px;
+    border-radius: 10px;
+    opacity: .8;
+    color: aquamarine;
+    text-align: center;
+}
+
+footer .bqsm {
+    margin: 15px 0 10px 0;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer .contact img {
+    width: 32px;
+    margin: 0 4px 0 32px;
+}

@@ -1,0 +1,102 @@
+header {
+    height: 500px;
+    background-image: url(../images/bg_top_img.jpg);
+    position: relative;
+}
+
+#huojian {
+    position: absolute;
+    width: 120px;
+    left: 232px;
+    top: -8px;
+}
+
+#scientist {
+    position: absolute;
+    left: 312px;
+    top: 190px;
+    width: 250px;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 10px;
+    line-height: 100px;
+}
+
+header form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 100px;
+    top: 35px;
+}
+
+header form input[type='text'] {
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    background-color: #a9c679;
+    border: 2px solid #373937;
+    color: rgb(60, 0, 58);
+}
+
+header form input[type='text']:focus {
+    background-color: #7dfdff;
+}
+
+header form img {
+    cursor: pointer;
+}
+
+header form img:hover {
+    transform: scale(1.1);
+}
+
+header nav ul {
+    display: flex;
+    list-style: none;
+    position: absolute;
+    right: 160px;
+    top: 110px;
+}
+
+header nav ul a {
+    text-decoration: none;
+    color: bisque;
+    margin-right: 40px;
+    transition: all .6s;
+    font-size: 15px;
+    padding: 6px 25px 6px 17px;
+}
+
+header nav a:hover {
+    transition: all .8s;
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#science_lab {
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+header .comments {
+    width: 460px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    right: 0;
+    bottom: 60px;
+}
+
+header .comments li {
+    font-style: italic;
+}

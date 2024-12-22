@@ -1,0 +1,454 @@
+body {
+    font-family: '微软雅黑';
+    background-image: url(../images/home_page_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    height: 160px;
+    background-image: url(../images/首页导航栏背景.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: .9;
+}
+
+#AI {
+    position: absolute;
+    left: 12px;
+    top: -30px;
+    width: 200px;
+}
+
+#logo {
+    transition: all .5s;
+    width: 48px;
+    margin-top: 4px;
+}
+
+#yuhangyuan {
+    width: 150px;
+    position: absolute;
+    top: -16px;
+    right: 16px;
+    transition: all .5s;
+}
+
+#yuhangyuan:hover {
+    transition: all .5s;
+    transform: translateX(-72px) scale(.3);
+}
+
+#earth {
+    width: 150px;
+    position: absolute;
+    top: -8px;
+    right: 160px;
+    animation: rotateZ 20s linear infinite;
+}
+
+@keyframes rotateZ {
+    from {
+        transform: rotateZ(0deg);
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+#logo:hover {
+    transition: all .5s;
+    transform: rotate(45deg);
+}
+
+header h1 {
+    font-family: '隶书';
+    color: rgb(184, 89, 240);
+    font-weight: 400;
+}
+
+header h1 span:first-child,
+span:last-child {
+    position: relative;
+    bottom: 25px;
+}
+
+header form {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 180px;
+    top: 35px;
+}
+
+header form input[type='text'] {
+    width: 200px;
+    height: 32px;
+    border-radius: 5px;
+    padding-left: 5px;
+    margin-right: 5px;
+    background-color: #a9c679;
+    border: 2px solid #373937;
+    color: rgb(60, 0, 58);
+}
+
+header form input[type='text']:focus {
+    background-color: #7dfdff;
+}
+
+header form img {
+    cursor: pointer;
+}
+
+header form img:hover {
+    transform: scale(1.1);
+}
+
+nav ul {
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav ul li {
+    padding: 12px 20px;
+}
+
+header nav a {
+    color: #f04167;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: all .6s;
+}
+
+header nav a:hover {
+    transition: all .8s;
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+#home_page {
+    color: rgb(122, 253, 119);
+    background-image: url(../images/导航激活状态.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.banner {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/banner.jpeg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: .9;
+}
+
+main {
+    height: 1000px;
+}
+
+.top .tzg {
+    background-image: url(../images/can.png);
+    background-size: cover;
+    display: inline-block;
+    width: 45px;
+    height: 45px;
+    overflow: hidden;
+    position: relative;
+    margin-right: 10px;
+    opacity: 1;
+}
+
+.tzg p {
+    font-size: 32px;
+    color: red;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-50%, -50%);
+}
+
+.cptj .top {
+    display: flex;
+    position: relative;
+    border-bottom: 1px solid rgba(110, 107, 107, 0.784);
+}
+
+.cptj .top .menu {
+    position: absolute;
+    right: 10px;
+    bottom: 15px;
+}
+
+.cptj .top .menu span {
+    padding: 6px 12px;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 6px;
+}
+
+.cptj .top .menu span:hover {
+    background-color: skyblue;
+}
+
+.cptj .top .menu span:first-child {
+    background-color: rgb(240, 23, 23);
+    color: bisque;
+    border: none;
+}
+
+.cptj .top .menu span:first-child:active {
+    background-color: rgb(240, 23, 23);
+    font-style: normal;
+}
+
+.cptj .top .menu span:active {
+    background-color: #beef81;
+    font-style: italic;
+}
+
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.item .box img {
+    display: inline-block;
+    width: 332px;
+    margin-bottom: 5px;
+}
+
+.item .box p {
+    margin-bottom: 5px;
+}
+
+.item .box {
+    border-bottom: 1px solid rgba(123, 118, 118, 0.708);
+    margin-bottom: 10px;
+}
+
+section {
+    text-indent: 48px;
+    background-color: rgb(241, 232, 198);
+    border-radius: 10px;
+    margin: 0;
+    text-indent: 32px;
+    opacity: .8;
+}
+
+footer {
+    background-image: url(../images/Snipaste_2024-12-19_04-44-49.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: 1000px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    border-radius: 10px;
+    opacity: .8;
+    color: aquamarine;
+    text-align: center;
+}
+
+footer .bqsm {
+    margin: 15px 0 10px 0;
+}
+
+footer .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+footer .contact img {
+    width: 32px;
+    margin: 0 4px 0 32px;
+}
+
+/* 快捷通道 */
+.linkBox {
+    min-width: 1000px;
+    height: 250px;
+    background-color: #E8F2FE;
+    opacity: .8;
+    border-radius: 10px;
+}
+
+.linkCenter {
+    width: 1000px;
+    margin: 0 auto;
+    padding: 15px 5px;
+}
+
+.linkTitle {
+    text-align: center;
+    position: relative;
+}
+
+.linkTitle>span {
+    display: inline-block;
+    font-size: 20px;
+    color: #0062AD;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #E8F2FE;
+    position: relative;
+    z-index: 3;
+}
+
+.linkTitle:before {
+    content: "";
+    border-bottom: solid 1px #DEDFE2;
+    display: block;
+    top: 15px;
+    position: relative;
+    z-index: 0;
+}
+
+.linkCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.linkCont>a {
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    /* background-color: rgba(255, 255, 255, .5); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkCont>a:hover {
+    text-decoration: none;
+}
+
+.linkCont>a>p {
+    display: inline-block;
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    border: 1px #fff solid;
+    background-color: #fff;
+    background-position: center center;
+    background-repeat: no-repeat;
+    margin: 0 0 10px;
+    box-sizing: border-box;
+}
+
+.linkCont>a:hover p {
+    background-color: #0062AD;
+    border: 8px #CCE2F2 solid;
+}
+
+.linkCont>a:hover>span {
+    color: #0062AD;
+}
+
+.linkCont>a>span {
+    font: 18px/22px "微软雅黑";
+    color: #4f4f4f;
+}
+
+.linkCont>a>.icon_1 {
+    transition: all .3s;
+    background-image: url('../images/icon_1.png');
+}
+
+.linkCont>a:hover>.icon_1 {
+    transition: all .3s;
+    background-image: url('../images/icon_1_hover.png');
+}
+
+.linkCont>a>.icon_2 {
+    transition: all .3s;
+    background-image: url('../images/icon_2.png');
+}
+
+.linkCont>a:hover>.icon_2 {
+    transition: all .3s;
+    background-image: url('../images/icon_2_hover.png');
+}
+
+.linkCont>a>.icon_3 {
+    transition: all .3s;
+    background-image: url('../images/icon_3.png');
+}
+
+.linkCont>a:hover>.icon_3 {
+    transition: all .3s;
+    background-image: url('../images/icon_3_hover.png');
+}
+
+.linkCont>a>.icon_4 {
+    transition: all .3s;
+    background-image: url('../images/icon_4.png');
+}
+
+.linkCont>a:hover>.icon_4 {
+    transition: all .3s;
+    background-image: url('../images/icon_4_hover.png');
+}
+
+.linkCont>a>.icon_5 {
+    transition: all .3s;
+    background-image: url('../images/icon_5.png');
+}
+
+.linkCont>a:hover>.icon_5 {
+    transition: all .3s;
+    background-image: url('../images/icon_5_hover.png');
+}
+
+.linkCont>a>.icon_6 {
+    transition: all .3s;
+    background-image: url('../images/icon_6.png');
+}
+
+.linkCont>a:hover>.icon_6 {
+    transition: all .3s;
+    background-image: url('../images/icon_6_hover.png');
+}
+
+.linkCont>a>.icon_7 {
+    transition: all .3s;
+    background-image: url('images/icon_7.png');
+}
+
+.linkCont>a:hover>.icon_7 {
+    transition: all .3s;
+    background-image: url('images/icon_7_hover.png');
+}
+
+#kyrshgjmh {
+    width: 580px;
+    position: absolute;
+    right: 0;
+    top: 240px;
+}
